@@ -32,3 +32,20 @@ size="3" = HTML attribute
 HTML attribute provides more information to the browser.
 For example, the 'size="3"' attribute specifies to the browser the size of 
 the horizontal rule.
+
+To add a comment in html, use "<!-- a comment -->"
+
+### An example
+
+`
+<!-- this is just an example -->
+<center>
+<hr size="3" noshade>
+<h1>THE ADVENTURE OF <br> SHERLOCK HOLMES</h1>
+<br>
+<h3>BY</h3>
+<br>
+<h2>SIR ARTHUR CONAN DOYLE</h2>
+<hr size="3" noshade>
+</center>
+`
