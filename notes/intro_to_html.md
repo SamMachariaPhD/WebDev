@@ -79,3 +79,6 @@ done using the specified unicode. If the language typed and the rendering
 unicode character set does not match, you will get some Mojibake.
 
 - The description meta tag tells what your website is about.
+
+- `<em>` and `strong` should be used instead of `<i>` and `<b>` the results are
+the same. The former is closely related to the structure and semantics while the later is more concerned with how the text looks/style. HTML is more concerned with structure. It is better to leave style to CSS.
