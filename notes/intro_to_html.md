@@ -71,3 +71,11 @@ programming. This kind of code is called `the boilerplate code`.
 
 - I think excessive use of the boilerplate code and `auto-complete` can make you a superficial programmer.
 More of these shortcuts can be found here [https://docs.emmet.io/cheat-sheet/]
+
+- If your html code is rendered with an unspecified character set,
+e.g., a non utf-8 character, you get some unknown characters called `Mojibake`
+a Japanese word meaning character transformation. The interpretation should be
+done using the specified unicode. If the language typed and the rendering
+unicode character set does not match, you will get some Mojibake.
+
+- The description meta tag tells what your website is about.
