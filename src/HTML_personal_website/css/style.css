@@ -1,0 +1,25 @@
+
+  body {
+    background-color: #EAF6F6; /*#F4CCA4;*/
+    /* I got #F4CCA4 from colorhunt.co also CSS color from mdn documentation */
+    font-family: Georgia, serif;
+  }
+  hr {/*background-color: white;*/
+    /*border-width: 0.5px;*/
+    /*height: 1px*/
+    /*width: 90%*/
+    /*border: 1px dashed*/
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 4px;
+    width: 70%
+  }
+
+h1, h2 {
+  color: darkgray;
+}
+
+h3{
+  color: orange;
+}
