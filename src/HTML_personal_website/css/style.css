@@ -1,6 +1,6 @@
 
   body {
-    background-color: #EAF6F6; /*#F4CCA4;*/
+    background-color: #F3EFE0; /* #EAF6F6; #F4CCA4;*/
     /* I got #F4CCA4 from colorhunt.co also CSS color from mdn documentation */
     font-family: Georgia, serif;
   }
@@ -16,10 +16,17 @@
     width: 70%
   }
 
-h1, h2 {
-  color: darkgray;
+h1, h2, p {
+  color: #434242;
 }
 
 h3{
   color: orange;
+}
+
+.rounded{
+/*object-fit: scale-down;*/
+/*height: 100px;*/
+width: 150px;
+border-radius:50%;
 }
